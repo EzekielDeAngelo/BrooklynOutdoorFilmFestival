@@ -6,7 +6,7 @@ body
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position: relative;
-	width: 100%;
+	
 }
 .text-center
 {
@@ -111,17 +111,7 @@ body
 	margin-left: auto;
 	margin-right: auto;
 }
-@include media-breakpoint-down(sm)
-{
-	#foot
-	{
-		background: url("images/background.jpg");
-	}
-	#social 
-	{
-	
-	}
-}
+
 #social
 {
 		
@@ -143,6 +133,13 @@ body
 	font-size: 1.4em;
 	text-shadow: 0.5px 0 0 #242424, -0.5px 0 0 #242424, 0 0.5px 0 #242424, 0 -0.5px 0 #242424;
 	text-align: center;
+	opacity: 0.8;
+}
+.partners-text:hover
+{
+		text-shadow: 0.5px 0 0 #242424, -0.5px 0 0 #242424, 0 0.5px 0 #242424, 0 -0.5px 0 #242424;
+		opacity: 1;
+		color: #444444;
 }
 #partners-text-2
 {
@@ -153,6 +150,12 @@ body
 {
 	right:0px;
 	margin-right:50px;
+	opacity: 0.8;
+}
+.sociallink:hover
+{
+	opacity: 1;
+	
 }
 #carouselControl
 {
